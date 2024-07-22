@@ -1,0 +1,96 @@
+body {
+    font-family: 'Cera Pro', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 13px;
+
+}
+
+h1 {
+    color: #3D3D3D;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #46A358;
+    font-size: 20;
+}
+
+.register-buttons {
+    font-weight: 300;
+    font-size: 20;
+}
+
+form {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+    font-weight: 400;
+    color: #A5A5A5;
+
+}
+
+input {
+    border-radius: 5px;
+    padding: 12px 14px;
+    display: block;
+    border: 1px solid #EAEAEA;
+    margin-bottom: 16px;
+    width: 100%;
+    font-size: 14px;
+}
+
+
+.social-buttons {
+    margin: auto;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+.social-button {
+    display: block;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    background-color: #ffffff;
+    color: #727272;
+    border-radius: 5px;
+    padding: 12px 14px;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.social-button img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+
+button {
+    width: 100%;
+    padding: 12px 14px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 14;
+}
+
+button:hover {
+    background-color: #45a049;
+}
